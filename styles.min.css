@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #bab8b8;
+  background-color: #FFF2D8;
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -34,7 +34,7 @@ main {
   align-items: center;
   text-align: center;
 
-  background-color: black;
+  background-color: #BCA37F;
   color: white;
   padding: 0px 0px;
 
@@ -51,7 +51,7 @@ main {
 }
 
 .navbar a {
-  color: white;
+  color: black;
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
   margin: 0 12px;
@@ -91,14 +91,14 @@ main {
   width:200px;
   height:400px;
   padding: 5px;
-  border: 8px solid #99632e;
+  border: 8px solid #113946;
   background-color: #e6e6e6;
 }
 
 /* CSS for index.html */
 
 .about-text {
-  background-color: rgb(255, 245, 230);
+  background-color: #EAD7BB;
   padding: 30px;
   margin: 20px;
   align-items: center;
