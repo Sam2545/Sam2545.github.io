@@ -95,8 +95,6 @@ main {
   background-color: #e6e6e6;
 }
 
-/* CSS for index.html */
-
 .about-text {
   background-color: #EAD7BB;
   padding: 30px;
@@ -108,13 +106,78 @@ h2.about-text{
   align-self: center;
 }
 
+/* CSS for portfolio.html */
+
+.page-title{
+  padding-block: 40px;
+  background-color: #113946;
+  color:#EAD7BB;
+  width: 100%;
+  text-align: center;
+  border:5px solid #EAD7BB;
+  border-radius: 15px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+
+}
+
+
+
+td{
+  width:33%;
+  border: 8px solid;
+  border-color: #113946;
+  background-color: #EAD7BB;
+}
+
+.table-row-portfolio{
+  border-color: #113946;
+  border:5px solid;
+  width: 100%;
+
+}
+
+.project-name, .project-description {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 10px;
+}
+
+.project-name {
+  font-weight:bold;
+  font-size:25px;
+}
+
+.project-details {
+  margin:10px;
+}
+
+a.project-link:link {
+  color: black;
+  text-decoration: none;
+}
+
+a.project-link:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.project-details-image {
+  width: 100%;
+  height: 100%;
+}
+
 /* CSS for page footer */
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #BCA37F;
   color: white;
   position: absolute;
   bottom: 0;
