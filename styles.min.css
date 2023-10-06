@@ -171,6 +171,39 @@ a.project-link:visited {
   height: 100%;
 }
 
+/* CSS for resume.html */
+
+.section-title {
+  display:inline-flex;
+  border: 5px solid #EAD7BB;
+  padding: 7px;
+  border-radius:10px;
+}
+
+.course-list > li{
+  padding-block: 10px;
+  font-size: 20px;
+}
+
+.section {
+  color: #113946;
+}
+
+.entry {
+  padding: 5px;
+}
+
+.btn {
+  background-color: #113946;
+  border: none;
+  color: #BCA37F;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
 /* CSS for page footer */
 
 .footer {
