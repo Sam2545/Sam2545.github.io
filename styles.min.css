@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 main {
@@ -71,6 +72,40 @@ main {
 
 .logo a {
   text-align: center;
+}
+
+/* CSS for index.html */
+
+.index-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-image-div {
+  align-items: center;
+}
+
+.about-image{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:200px;
+  height:400px;
+  padding: 5px;
+  border: 8px solid #99632e;
+  background-color: #e6e6e6;
+}
+
+/* CSS for index.html */
+
+.about-text {
+  background-color: rgb(255, 245, 230);
+  padding: 30px;
+  margin: 20px;
+  align-items: center;
+  border-radius: 15px;
+}
+h2.about-text{
+  align-self: center;
 }
 
 /* CSS for page footer */
