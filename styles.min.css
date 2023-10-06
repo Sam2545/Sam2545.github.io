@@ -201,7 +201,33 @@ a.project-link:visited {
   cursor: pointer;
   font-size: 20px;
   margin-bottom: 20px;
-  align-self: center;
+}
+/* CSS for contact.html */
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: #113946;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+}
+
+/* Add some spacing to the form */
+form {
+  width: 500px;
+  margin: 0 auto;
 }
 
 /* CSS for page footer */
