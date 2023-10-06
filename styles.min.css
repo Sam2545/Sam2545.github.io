@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: #bab8b8;
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -52,9 +52,25 @@ main {
 .navbar a {
   color: white;
   font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
   margin: 0 12px;
   text-decoration: none;
   letter-spacing: 2px;
+}
+
+
+/* CSS for logo on navbar */
+.logo {
+
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-radius: 25px;
+  border-image-slice: 1;
+  padding: 10px;
+}
+
+.logo a {
+  text-align: center;
 }
 
 /* CSS for page footer */
