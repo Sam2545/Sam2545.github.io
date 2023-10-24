@@ -244,3 +244,23 @@ form {
   width: 100%;
   height: 2.5rem;
 }
+
+/* CSS for blog pages */
+
+.blog-date {
+  box-align: margin-left;
+}
+
+.blog-img {
+  height: 10%;
+  width: 30%
+}
+
+.post-preview {
+  padding-block: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  border:5px solid #EAD7BB;
+  border-radius: 15px;
+}
